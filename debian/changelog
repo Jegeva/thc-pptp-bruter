@@ -1,0 +1,44 @@
+thc-pptp-bruter (0.1.4-1kali4) kali-dev; urgency=medium
+
+  [ Ben Wilson ]
+  * Add Uploaders
+  * Remove template comment and switch spaces to tabs
+
+  [ Kali Janitor ]
+  * Drop use of autotools-dev debhelper.
+  * Update standards version to 4.6.1, no changes needed.
+
+  [ Steev Klimaszewski ]
+  * d/watch: Add watch file to explain status of this project.
+  * Prepare for Release
+
+ -- Steev Klimaszewski <steev@kali.org>  Fri, 20 Jan 2023 12:20:18 -0600
+
+thc-pptp-bruter (0.1.4-1kali3) kali-dev; urgency=medium
+
+  [ Raphaël Hertzog ]
+  * Update Maintainer field
+  * Update Vcs-* fields for the move to gitlab.com
+  * Add GitLab's CI configuration file
+  * Configure git-buildpackage for Kali
+  * Update URL in GitLab's CI configuration file
+
+  [ Sophie Brun ]
+  * Add a patch to fix issue with new ssl lib
+  * Update debian/copyright
+  * Bump Standards-Version to 4.5.1
+  * Use compat 9
+
+ -- Sophie Brun <sophie@offensive-security.com>  Wed, 15 Sep 2021 10:55:41 +0200
+
+thc-pptp-bruter (0.1.4-1kali2) kali; urgency=low
+
+  * Removed desktop file
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 15 Dec 2012 13:59:13 -0500
+
+thc-pptp-bruter (0.1.4-1kali0) kali; urgency=low
+
+  * Initial release
+
+ -- Mati Aharoni <muts@kali.org>  Sun, 02 Dec 2012 09:10:17 -0500

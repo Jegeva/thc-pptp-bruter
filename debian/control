@@ -1,0 +1,20 @@
+Source: thc-pptp-bruter
+Section: net
+Priority: optional
+Maintainer: Kali Developers <devel@kali.org>
+Uploaders: Mati Aharoni <muts@kali.org>,
+           Sophie Brun <sophie@offensive-security.com>,
+Build-Depends: debhelper (>= 9.20160114), autotools-dev, libssl-dev
+Standards-Version: 4.6.2
+Homepage: http://www.thc.org/releases.php
+Vcs-Git: https://gitlab.com/kalilinux/packages/thc-pptp-bruter.git
+Vcs-Browser: https://gitlab.com/kalilinux/packages/thc-pptp-bruter
+
+Package: thc-pptp-bruter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: THC PPTP Brute Force
+ Brute force program against pptp vpn endpoints (tcp port 1723).  Fully
+ standalone. Supports latest MSChapV2 authentication. Tested against Windows
+ and Cisco gateways.  Exploits a weakness in Microsoft's anti-brute force
+ implementation which makes it possible to try 300 passwords the second.

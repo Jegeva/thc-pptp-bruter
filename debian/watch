@@ -1,0 +1,6 @@
+version=4
+opts=dversionmangle=s/.*/0.No-Site/ \
+https://people.debian.org/~eriberto/ FakeWatchNoUpstreamSiteForThisPackage-(\d\S+)\.gz
+# This application no longer has an upstream, but the tarball for the last
+# release can be found with other THC releases in their archive at
+# https://github.com/hackerschoice/THC-Archive/tree/master/Tools
